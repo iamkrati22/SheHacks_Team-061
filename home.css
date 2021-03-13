@@ -87,3 +87,123 @@ nav a:hover{
         left: 0;
     }
 }
+/* footer styling */
+footer {
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+footer .content{
+    background-color: #791b3e;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+footer .content p,a{
+    color: rgb(224, 243, 243);
+}
+footer .content .box{
+    width: 33%;
+}
+footer .content .topic{
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 16px;
+    text-align: center;
+    
+    }
+footer .content p{
+    text-align: center;
+}
+footer .content .lower .topic{
+    margin:  24px 0 5px 0px;
+}
+footer .content .lower i{
+   
+    padding-right: 16px;
+}
+footer .content .middle{
+padding-left: 30px;
+
+}
+footer .content .middle a{
+    display: block;
+    line-height: 32px;
+    text-align: center;
+}
+footer .content .right{
+    margin-left: px;
+}
+footer .content .right input[type="text"]{
+height: 45px;
+width: 100%;
+outline: none;
+color: #d9d9d9;
+background-color: #000;
+border-radius: 5px;
+padding-left: 10px;
+font-size: 17px;
+
+
+}
+footer .content .right input[type="submit"]{
+    height: 42px;
+    width: 100%;
+    outline: none;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-top: 12px;
+    background-color: rgb(241, 143, 220);
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 18px;
+   
+    transition: all 0.3s ease-in-out;
+    
+    }
+    footer .content .right input[type="submit"]:hover{
+    background-color: blanchedalmond;
+    color: black;
+    
+    }
+
+    /*footer social media icons */
+    footer .content .media-icons a{
+            font-size: 16px;
+            height: 45px;
+            width: 45px;
+            background: rgb(14, 14, 14);
+            display: inline-block;
+            text-align: center;
+            border-radius: 5px;
+            line-height: 45px;
+            margin: 25px 5px 0 0 ;
+            color: azure;
+    }
+    footer .content .media-icons a:hover{
+        color: rgb(241, 143, 220);
+
+    }
+    footer .content .bottom{
+        width: 100%;
+        text-align: right;
+    color: rgb(255, 255, 255);
+    padding: 0 40px 5px 0;
+    }
+    
+    footer a{
+        transition: all 0.3s ease;
+    }
+    footer a:hover{
+        color: rgb(25, 238, 209);
+    }
+    /*responsive  footer */
+@media(max-width:900px)
+{
+   footer .content .media-icons a{
+    margin: 25px 0 0 0;
+   } 
+}
