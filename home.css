@@ -207,3 +207,115 @@ footer .content .right input[type="submit"]{
     margin: 25px 0 0 0;
    } 
 }
+
+/* main content styling */
+main{
+    padding-top: 50px;
+}
+.container{
+    display: flex;
+    
+}
+.background{
+   width: 50%;
+}
+.main-cont{
+    padding-top: 50px;
+    text-align: center;
+    font-size: xx-large;
+    width: 50%;
+}
+.main-cont a{
+    color: red;
+}
+.main-cont h1{
+    color: rgb(0, 0, 0);
+}
+.main-cont h2,h3{
+    font-style: italic;
+    color: rgb(92, 44, 44);
+}
+
+.text-ani{
+    text-align: center;
+    color: rgb(5, 5, 5);
+    font-size: x-large;
+    padding-top: 56px;
+}
+
+/* animated text */
+.text-ani::before { 
+    content: "The best thing about a boolean is even if you are wrong, you are only off by a bit. (Anonymous)"; 
+    animation: animate infinite 10s; 
+} 
+@keyframes animate { 
+
+    0% { 
+        content: "Without requirements or design, programming is the art of adding bugs to an empty text file. (Louis Srygley)"; 
+    } 
+    75% { 
+        content: "Walking on water and developing software from a specification are easy if both are frozen. (Edward V Berard)"; 
+    } 
+    150% { 
+        content: "Software undergoes beta testing shortly before it’s released. Beta is Latin for “still doesn’t work. (Anonymous)"; 
+    } 
+} 
+
+/* signup button styling*/
+
+.register {
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 16px 32px;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #f44336;
+  }
+  .register a{
+      color: black;
+  }
+  .register a:hover{
+    color: rgb(245, 239, 239);
+}
+  
+  .register:hover {
+    background-color: #f44336;
+    color: white;
+  }
+
+@media (max-width:500px){
+    .main-cont{
+        font-size: small;
+        font-weight: bold;
+    }
+.register {
+    border-radius: 10px;
+    padding: 10px 10px;
+    font-size: 13px;
+    margin: 2px 0px;
+
+}
+.background p{
+        font-size: small;
+        font-weight: bold;
+}
+}
+/*main content*/
+.image{
+    width: 90%;
+}
+.container-two{
+    font-size: x-large;
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.images{
+    width: 33.33%;
+}
+.main-content{
+    width: 70%;
+}
